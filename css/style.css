@@ -1,0 +1,99 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.card-action a{
+  color: red;
+}
+
+
+h5 {
+ 	text-align: center;
+ }
+
+.eventresults {
+  display: inline;
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+  .row .col.m4 {
+    width: 24.333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .icon-block {
+  background-color: aliceblue;
+      padding: 15px 15px;
+}
+
+.north {
+	width: 86%;
+    margin: auto;
+    display: block;
+}
+
+.logo {
+	width: 40%;
+    margin: auto;
+    display: block;	
+}
+
+.orange {
+    background-color: #d9142a !important;
+}
+
+.btn-large {
+	background-color: #d9142a !important;
+
+}
+
+.btn-large:hover {
+	background-color: #a31126 !important;
+}
+
+.section.no-pad-bot {
+	padding-top: 0px;
+}
+
+.center, .center-align {
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.orange-text.text-lighten-3 {
+    color: #fff !important;
+}
+
+.logo-footer {
+	width: 200px;
+	height: auto;
+}
+
+.white-text {
+    text-align: left;
+}
+
+a:hover {
+    color: #351d20 !important;
+}
+
+p.north-text {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: lato;
+    font-weight: bold;
+}
+
