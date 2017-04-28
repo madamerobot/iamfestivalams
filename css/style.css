@@ -10,9 +10,29 @@
   display: none;
  }
 
-#showall {
-  /*display: none;*/
+.addbuttons {
+  display: none;
   text-align: center;
+}
+
+#dance-button {
+  background-color: #bb41f4;
+}
+
+#foodie-button {
+  background-color: #2ee1e8;
+}
+
+#music-button {
+  background-color: #e06f53;
+}
+
+#culture-button {
+  background-color: #42a1f4;
+}
+
+#showall-button {
+  background-color: #e3ed34;
 }
 
 .card-action a{
@@ -26,7 +46,6 @@ h5 {
 .eventresults {
   display: inline;
 }
-
 
 .icon-block {
   padding: 0 15px;
@@ -65,7 +84,6 @@ h5 {
 
 .btn-large {
 	background-color: #d9142a !important;
-
 }
 
 .btn-large:hover {
