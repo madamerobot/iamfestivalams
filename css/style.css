@@ -252,9 +252,11 @@ ul:not(.browser-default) {
 }
 
 .price {
-  border: solid 1px;
+  /*border: solid 1px;*/
   margin-top: 10px;
-  font-weight: lighter;
+  /*font-weight: 200;*/
+  background-color: #e6e9ef;
+  text-align: left;
 
 }
 
