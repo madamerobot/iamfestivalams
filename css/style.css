@@ -10,9 +10,10 @@
   display: none;
  }
 
-.showcards{
-  display : block;
- }
+#showall {
+  /*display: none;*/
+  text-align: center;
+}
 
 .card-action a{
   color: red;
