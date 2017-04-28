@@ -6,6 +6,8 @@
       $('.carousel').carousel();
 
       $('.parallax').parallax();
+
+      $('.materialboxed').materialbox();
         
        // Next slide
       $('.carousel').carousel('next');
@@ -16,7 +18,13 @@
       // Set to nth slide
       $('.carousel').carousel('set', 4);
   });
-        // photo enlarg
+
+
+
+        
+  // Get the modal // photo enlarg
+  
+  
 
 
   
