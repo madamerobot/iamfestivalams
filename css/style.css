@@ -214,3 +214,24 @@ ul:not(.browser-default) {
   width: 100%;
 }
 
+.price {
+  border: solid 1px;
+  margin-top: 10px;
+  font-weight: lighter;
+
+}
+
+.card .card-image .card-title {
+  font-weight: lighter;
+  background-color: black;
+}
+
+.card .card-content p {
+    margin: 0px;
+    color: inherit;
+}
+
+.card p.title-box {
+  margin-bottom: 0px;
+}
+
