@@ -1,6 +1,36 @@
-/*jQuery for event card filters*/
+//jQuery for event detail pages
 
-/*Displaying festival cards depending on neighbourhood .class filter*/
+//Initialising parallax
+
+      $(document).ready(function(){
+      $('.parallax').parallax();
+    });  
+
+ //Parallax
+ // jquery events page. shmuel --------$(document).ready(function(){
+        
+// photo gallery arousles 
+
+  $(document).ready(function(){
+      $('.carousel').carousel();
+
+      $('.parallax').parallax();
+
+      $('.materialboxed').materialbox();
+        
+       // Next slide
+      $('.carousel').carousel('next');
+      $('.carousel').carousel('next', 3); // Move next n times.
+      // Previous slide
+      $('.carousel').carousel('prev');
+      $('.carousel').carousel('prev', 4); // Move prev n times.
+      // Set to nth slide
+      $('.carousel').carousel('set', 4);
+  });
+
+//jQuery for event card filters*/
+
+//Displaying festival cards depending on neighbourhood .class filter*/
 $(document).ready(function () {
 	
 	$("#noord-button").on("click", function() {
