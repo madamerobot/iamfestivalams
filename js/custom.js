@@ -4,23 +4,34 @@
 $(document).ready(function () {
 	
 	$("#noord-button").on("click", function() {
-		$('.card').toggleClass("showcards")
-		$(".noord").slideDown("slow")
+		$('.oost').removeClass("showcards")
+		$('.zuid').removeClass("showcards")
+		$('.west').removeClass("showcards")
+		$(".noord").addClass("showcards")
+		$(".noord").slideDown("slow");
 	});
 
 	$("#oost-button").on("click", function() {
-		$('.card').toggleClass("showcards")
-		$(".oost").slideDown("slow")
-
+		$('.noord').removeClass("showcards")
+		$('.zuid').removeClass("showcards")
+		$('.west').removeClass("showcards")
+		$(".oost").addClass("showcards")
+		$(".oost").slideDown("slow");
 	});
 
 	$("#zuid-button").on("click", function() {
-		$('.card').toggleClass("showcards")
-		$(".zuid").slideDown("slow")
+		$('.oost').removeClass("showcards")
+		$('.noord').removeClass("showcards")
+		$('.west').removeClass("showcards")
+		$(".zuid").addClass("showcards")
+		$(".zuid").slideDown("slow");
 	});
 
 	$("#west-button").on("click", function() {
-		$('.card').toggleClass("showcards")
-		$(".west").slideDown("slow")
+		$('.oost').removeClass("showcards")
+		$('.noord').removeClass("showcards")
+		$('.zuid').removeClass("showcards")
+		$(".west").addClass("showcards")
+		$(".west").slideDown("slow");
 	});
 });
