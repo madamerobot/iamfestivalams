@@ -6,10 +6,17 @@
  * Made By MaterializeCSS.com
  */
 
+ .card {
+  display: none;
+ }
+
+ .showcards{
+  display : block;
+ }
+
 .card-action a{
   color: red;
 }
-
 
 h5 {
  	text-align: center;
