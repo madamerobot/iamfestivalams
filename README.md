@@ -9,8 +9,9 @@ This page was created based on the needs of three different personas, which we t
 <h1>Screenshots:</h1>
 
 ![Landing Page](/screenshots/iamfestival_screenshot_1.png?raw=true "Landing Page")
-![Results](/screenshots/iamfestival_screenshot_2?raw=true "Gallery")
-![Event Detail Page](/screenshots/iamfestival_screenshot_3?raw=true "Gallery")
+
+![Results](/screenshots/iamfestival_screenshot_2.png?raw=true "Gallery")
+![Event Detail Page](/screenshots/iamfestival_screenshot_3.png?raw=true "Gallery")
 
 <h1>Credits:</h1>
 <p>Background imagery: https://unsplash.com<br>
