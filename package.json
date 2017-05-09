@@ -1,0 +1,19 @@
+{
+  "name": "iamfestivalams",
+  "version": "1.0.0",
+  "description": "Festival finder for Amsterdam",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madamerobot/iamfestivalams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madamerobot/iamfestivalams/issues"
+  },
+  "homepage": "https://github.com/madamerobot/iamfestivalams#readme"
+}
